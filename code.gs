@@ -9,8 +9,8 @@
 
 const datasource = 'weatherflow'; // 'ibm' (wunderground), 'acurite' (myacurite), 'davis' (weatherlink), 'weatherflow' (tempestwx), 'ambient' (ambient weather), 'ecowitt', 'aprs' (aprs.fi), or 'custom' (custom webhook in rtl_433 format)
 
-const ibmAPIKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
-const ibmStationID = 'KXXXXXXXXXX';
+const ibmAPIKey = '9d7198834cbf4d7fb198834cbf8d7fbe';
+const ibmStationID = 'ISERFA1';
 // or
 const acuriteUsername = 'xxxxxx@example.com';
 const acuritePassword = 'xxxxxxxxxxxxxxxxxx';
@@ -43,9 +43,9 @@ const updateWunderground = false;
 const wundergroundStationID = 'KXXXXXXXXXX';
 const wundergroundStationKey = 'xxxxxxxx';
 ///
-const updateWindy = false;
-const windyAPIKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
-const windyStationID = '0';
+const updateWindy = true;
+const windyAPIKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaSI6MTQzNDg3NzEsImlhdCI6MTczNzY2MzE1MH0.X85k2QJaEn-JkEmvEC2Er3pIeJZlFyFuieyB_4zduBc';
+const windyStationID = 'f0a43bb4';
 ///
 const updatePWSWeather = false;
 const pwsWeatherAPIKey = 'XXXXXXXXXXX';
